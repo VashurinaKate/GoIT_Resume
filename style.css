@@ -1,0 +1,47 @@
+* {
+    font-family: 'Rajdhani';
+}
+.container {
+    max-width: 1201px;
+    margin: 0 auto;
+    box-shadow: 5px -2px 14px 1px rgba(0, 0, 0, .2);
+    padding: 38px;
+    position: relative;
+}
+ul, ol {
+    padding-left: 17px;
+}
+aside {
+    float: left;
+    background-color: #050548;
+    color: white;
+    width: 371px;
+    height: calc(100% - 80px);
+    position: absolute;
+}
+aside>div {
+    padding-left: 41px;
+}
+
+aside img {
+    width: 300px;
+    height: 450px;
+    display: block;
+    margin: 0 auto;
+}
+
+aside a {
+    color: white;
+}
+a:hover {
+    color: orange;
+}
+.resume {
+    margin-left: 481px;
+}
+.colortext {
+    color: orange;
+}
+.dates {
+    color: grey;
+}
